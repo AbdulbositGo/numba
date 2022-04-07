@@ -3,6 +3,8 @@ from time import time
 
 
 before = time()
+
+# numba
 @njit(fastmath=True, cache=True)
 def massive(nums):
 
